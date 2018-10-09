@@ -2,7 +2,7 @@
 
 [苹果官方通用审核条款](https://developer.apple.com/cn/app-store/review/guidelines/)
 
-## 苹果审核被拒原因总结
+## 苹果AppleSotre审核潜规则总结
 
 ### 苹果审核指南：
 
