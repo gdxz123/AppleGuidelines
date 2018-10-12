@@ -2,7 +2,7 @@
 
 [苹果官方通用审核条款](https://developer.apple.com/cn/app-store/review/guidelines/)
 
-## 苹果AppleSotre审核潜规则总结
+## 苹果AppleSotre审核潜规则总结（针对中国区）
 
 ### 苹果审核指南：
 
