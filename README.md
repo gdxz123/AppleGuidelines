@@ -24,7 +24,7 @@
 
 6、APP提审图iphoneX的介绍页需要有刘海
 
-(2.3.3 Performance - Accurate Metadata : Upon further review, your screenshot(s) for iPhone 5.8'' does not reflect the app in use on iPhoneX.)
+(Guideline 2.3.3 Performance - Accurate Metadata : Upon further review, your screenshot(s) for iPhone 5.8'' does not reflect the app in use on iPhoneX.)
 
 7、审核人员大部分用iPad进行审核，APP需要在ipad里正常使用，（可能iPad成本便宜而且屏幕大）
 
