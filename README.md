@@ -58,6 +58,10 @@
 
 （Performance - 2.3.7 : your app name to be displayed on the App Store includes keywords or descriptore, whitch are not appropriate for use in an app name. Specifically, the following words in your app name are considered keywords or descriptors:）
 
+20、信息缺失，导致审核人员有疑问的地方也会被拒
+
+(Guideline 2.1 - Information Needed : We have started the review of your app, but we are not able to continue because we need additional information about your app.)
+
 ### 社交类应用
 
 1、图片社交、交友需要有拉黑举报功能
