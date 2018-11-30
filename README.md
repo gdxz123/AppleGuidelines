@@ -22,7 +22,9 @@
 
 6、APP提审图iphoneX的介绍页需要有刘海
 
-7、审核人员都用iPad进行审核，APP需要在ipad里正常使用
+7、审核人员大部分用iPad进行审核，APP需要在ipad里正常使用，（可能iPad成本便宜而且屏幕大）
+
+(Guideline 2.4.1 - Performance - Hardware Compatibility : We noticed that your app did not run at iPhone resolution when reviewed on iPad running iOS 12.0.0. Please see attached screenshots for details.)
 
 8、有账号体系需要提供审核账号
 
