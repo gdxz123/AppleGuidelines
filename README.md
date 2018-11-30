@@ -36,18 +36,27 @@
 
 13、应用不可出现test、beta、测试等不稳定版本字眼
 
-14、APP内不可自己检测更新或引导下载第三方APP,APP如果做了检测更新应该引导用户跳到appstore进行更新(Guideline 4.0 - Design : Your app includes an update button or alerts the user to update the app, but the update button or alert does not link directly to the app's page on the App Store.)
+14、APP内不可自己检测更新或引导下载第三方APP,APP如果做了检测更新应该引导用户跳到appstore进行更新
+
+(Guideline 4.0 - Design : Your app includes an update button or alerts the user to update the app, but the update button or alert does not link directly to the app's page on the App Store.)
 
 15、目前审核人员主要在iPad上进行审核，即使app不兼容iPad也要保证app的UI交互在iPad上能正常进行
 
 16、要手机号验证码登录的APP，提审时，需要提供审核账号给审核人员，审核人员不会注册账号
 
 17、提审的APP要有一定的功能，如果都是H5页面，苹果会拒绝，要求你要网页做
+
 (Guideline 4.2.2 - Design - Minimum Functionality : We noticed that your app only includes links, images, or content aggregated from the Internet with limited or no native iOS functionality. Although this content may be curated from the web specifically for your users, since it does not sufficiently differ from a mobile web browsing experience, it is not appropriate for the App Store.)
 
-18、需要用户开启相册、相机、定位等权限时，要在访问弹框里明确说明用途(Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage : We noticed that your app requests the user's consent to access their camera but does not clarify the use of this feature in permission modal alert. It would be appropriate to elaborate on why your app is scanning QR code and taking pictures.)
+(Guideline 4.2 - Design - Minimum Functionality : Thank you for your resubmission and making the changes. We found that the usefulness of your app is limited by the miniaml amount of content or features it includes. Specifically, your app only provides a code contest without other account-based or iOS user interactive features.)
 
-19、App名字、关键词不能涵盖其他著名应用的信息（Performance - 2.3.7 : your app name to be displayed on the App Store includes keywords or descriptore, whitch are not appropriate for use in an app name. Specifically, the following words in your app name are considered keywords or descriptors:）
+18、需要用户开启相册、相机、定位等权限时，要在访问弹框里明确说明用途
+
+(Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage : We noticed that your app requests the user's consent to access their camera but does not clarify the use of this feature in permission modal alert. It would be appropriate to elaborate on why your app is scanning QR code and taking pictures.)
+
+19、App名字、关键词不能涵盖其他著名应用的信息
+
+（Performance - 2.3.7 : your app name to be displayed on the App Store includes keywords or descriptore, whitch are not appropriate for use in an app name. Specifically, the following words in your app name are considered keywords or descriptors:）
 
 ### 社交类应用
 
@@ -75,6 +84,8 @@
 
 3、有抽奖、赌博的活动（猜测凡APP涉及抽奖/比赛/彩票/赌博内容/奖品涉及苹果公司产品）需要限制年龄17+，并且声明活动跟苹果无关
 
+(Guideline 5.3.2 - Legal - Gaming, Gambling, and Lotteries : Your app includes a contest or sweepstakes, but it does not indicate the Apple is not involved in any way with the contest or sweepstakes. Also. it does not enforce an app age rating of 17+.)
+
 ### 商城
 1、APP商品如果是虚拟物品需要走苹果内购渠道
 
@@ -91,9 +102,13 @@
 
 3、如果APP有博彩类游戏，一定要声明活动与苹果无关
 
+(Guideline 5.3.2 - Legal - Gaming, Gambling, and Lotteries : Your app includes a contest or sweepstakes, but it does not indicate the Apple is not involved in any way with the contest or sweepstakes.)
+
 ### 马甲包制作
 
-1、需要修改：账号，IP，名字，包名，方法名，类名，图片名，图片md5(Guideline 4.3 - Design : We noticed that your app provides the same feature set as other apps submitted to the App Store; it simply varies in content or language, which is considered a form of spam.)
+1、需要修改：账号，IP，名字，包名，方法名，类名，图片名，图片md5
+
+(Guideline 4.3 - Design : We noticed that your app provides the same feature set as other apps submitted to the App Store; it simply varies in content or language, which is considered a form of spam.)
 
 ### 惩罚相关
 
