@@ -44,7 +44,7 @@
 
 17、提审的APP要有一定的功能，如果都是H5页面，苹果会拒绝，要求你要网页做
 
-18、需要用户开启相册、相机、定位等权限时，要在访问弹框里明确说明用途
+18、需要用户开启相册、相机、定位等权限时，要在访问弹框里明确说明用途(Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage : We noticed that your app requests the user's consent to access their camera but does not clarify the use of this feature in permission modal alert. It would be appropriate to elaborate on why your app is scanning QR code and taking pictures.)
 
 19、App名字、关键词不能涵盖其他著名应用的信息（Performance - 2.3.7 : your app name to be displayed on the App Store includes keywords or descriptore, whitch are not appropriate for use in an app name. Specifically, the following words in your app name are considered keywords or descriptors:）
 
