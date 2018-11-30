@@ -16,6 +16,8 @@
 
 3、不可使用苹果私有API
 
+(Guideline 3.3.1 - Applications may only use Documented APIs in manner prescribed by Apple and must not use or call any private APIs.)
+
 4、不支持ipv6网络访问，美国地区需要支持iPv6，需把审核地区设置成中国即可
 
 (Guideline 2.1 - Performance - App Completeness : We discovered one or more bugs in your app when reviewed on iPad running iOS 12.0.0 on Wi-Fi connected to an IPv6 network.)
