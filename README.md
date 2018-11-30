@@ -36,13 +36,14 @@
 
 13、应用不可出现test、beta、测试等不稳定版本字眼
 
-14、APP内不可自己检测更新或引导下载第三方APP,APP如果做了检测更新应该引导用户跳到appstore进行更新
+14、APP内不可自己检测更新或引导下载第三方APP,APP如果做了检测更新应该引导用户跳到appstore进行更新(Guideline 4.0 - Design : Your app includes an update button or alerts the user to update the app, but the update button or alert does not link directly to the app's page on the App Store.)
 
 15、目前审核人员主要在iPad上进行审核，即使app不兼容iPad也要保证app的UI交互在iPad上能正常进行
 
 16、要手机号验证码登录的APP，提审时，需要提供审核账号给审核人员，审核人员不会注册账号
 
 17、提审的APP要有一定的功能，如果都是H5页面，苹果会拒绝，要求你要网页做
+(Guideline 4.2.2 - Design - Minimum Functionality : We noticed that your app only includes links, images, or content aggregated from the Internet with limited or no native iOS functionality. Although this content may be curated from the web specifically for your users, since it does not sufficiently differ from a mobile web browsing experience, it is not appropriate for the App Store.)
 
 18、需要用户开启相册、相机、定位等权限时，要在访问弹框里明确说明用途(Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage : We noticed that your app requests the user's consent to access their camera but does not clarify the use of this feature in permission modal alert. It would be appropriate to elaborate on why your app is scanning QR code and taking pictures.)
 
@@ -92,7 +93,7 @@
 
 ### 马甲包制作
 
-1、需要修改：账号，IP，名字，包名，方法名，类名，图片名，图片md5
+1、需要修改：账号，IP，名字，包名，方法名，类名，图片名，图片md5(Guideline 4.3 - Design : We noticed that your app provides the same feature set as other apps submitted to the App Store; it simply varies in content or language, which is considered a form of spam.)
 
 ### 惩罚相关
 
