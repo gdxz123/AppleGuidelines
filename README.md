@@ -66,7 +66,7 @@
 
 19、App名字、关键词不能涵盖其他著名应用的信息
 
-（Performance - 2.3.7 : your app name to be displayed on the App Store includes keywords or descriptore, whitch are not appropriate for use in an app name. Specifically, the following words in your app name are considered keywords or descriptors:）
+(Performance - 2.3.7 : your app name to be displayed on the App Store includes keywords or descriptore, whitch are not appropriate for use in an app name. Specifically, the following words in your app name are considered keywords or descriptors:)
 
 20、信息缺失，导致审核人员有疑问的地方也会被拒
 
