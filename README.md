@@ -72,6 +72,10 @@
 
 (Guideline 2.1 - Information Needed : We have started the review of your app, but we are not able to continue because we need additional information about your app.)
 
+21、APP介绍页展示的功能要跟实际应用提供的功能一致
+
+(Guideline 2.3.3 – Performance – Accurate Metadata :  We noticed that your screenshots do not sufficiently reflect your app in use.Please see attached screenshots for details.)
+
 ### 社交类应用
 
 1、图片社交、交友需要有拉黑举报功能
