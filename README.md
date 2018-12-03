@@ -34,6 +34,8 @@
 
 8、有账号体系需要提供审核账号
 
+(Guideline 2.1 - Information Needed : We have started the review of your app, but we were unable to successfully register for an in-app account. In order for us to review your app, please provide a demo account so that we may fully assess your app's features.Specifically, we need a company name to log in.)
+
 9、保护未成年用户隐私
 
 10、APP如果有下载比较大的资源，需要告知提醒用户下载内容大小
