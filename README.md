@@ -76,6 +76,12 @@
 
 (Guideline 2.3.3 – Performance – Accurate Metadata :  We noticed that your screenshots do not sufficiently reflect your app in use.Please see attached screenshots for details.)
 
+22、APP不可以必须使用邀请码才能注册使用
+
+(Guideline 2.3 - Performance : Your app arbitrarily restrict users byrequiring invitation code to register, which is not allowed on the App Store.We’ve attached screenshot(s) for your reference.
+Next Steps
+Please revise your app to remove anyfunctionality that limits who can use the app.)
+
 ### 社交类应用
 
 1、图片社交、交友需要有拉黑举报功能
