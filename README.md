@@ -22,7 +22,11 @@
 
 (Guideline 2.1 - Performance - App Completeness : We discovered one or more bugs in your app when reviewed on iPad running iOS 12.0.0 on Wi-Fi connected to an IPv6 network.)
 
-5、版权问题，不要使用明显有版权争议的素材资源、如emoji、苹果logo、美国电影等 如：[开发者注意 苹果禁止在App设计中使用emoji](https://www.feng.com/iPhone/news/2018-02-05/_696078.shtml)
+5、版权问题，不要使用明显有版权争议的素材资源、如emoji、苹果logo、美国电影等 如：
+
+[开发者注意 苹果禁止在App设计中使用emoji](https://www.feng.com/iPhone/news/2018-02-05/_696078.shtml)
+
+[版权与商标使用条款](https://www.apple.com/legal/intellectual-property/guidelinesfor3rdparties.html)
 
 6、APP提审图iphoneX的介绍页需要有刘海
 
