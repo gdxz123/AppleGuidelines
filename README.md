@@ -44,7 +44,7 @@
  
 12、APP功能太少，会给苹果委婉拒绝并提示用网页开发
 
-13、应用不可出现预发布、试验、测试、test、beta、trial等不稳定版本字眼
+13、应用不可出现预敬请期待、发布、试验、测试、test、beta、trial等不稳定版本字眼
 
 (Guideline 2.2 - Performance - Beta Testing : 
 Your app appears to be a pre-release, test, or trial version with a limited feature set. Apps that are created for demonstration or trial purposes are not appropriate for the App Store.
