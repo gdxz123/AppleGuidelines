@@ -76,11 +76,19 @@
 
 (Guideline 2.3.3 – Performance – Accurate Metadata :  We noticed that your screenshots do not sufficiently reflect your app in use.Please see attached screenshots for details.)
 
-22、APP不可以必须使用邀请码才能注册使用
+22、APP不可以必须使用邀请码才能注册
 
 (Guideline 2.3 - Performance : Your app arbitrarily restrict users byrequiring invitation code to register, which is not allowed on the App Store.We’ve attached screenshot(s) for your reference.
 Next Steps
 Please revise your app to remove anyfunctionality that limits who can use the app.)
+
+23、APP不可以必须使用邀请码、代码、私钥才能解锁某些功能，应该采用内购方式
+
+(Guideline 3.1.1 - Business - Payments - In-App Purchase
+Your app unlocks or enables additional functionality with mechanisms such as promo codes, data transfer codes, license keys, augmented reality markers, or QR codes, which is not appropriate for the App Store.
+邀请码
+Next Steps
+To resolve this issue, please remove this feature from your app.)
 
 ### 社交类应用
 
