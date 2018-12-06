@@ -148,7 +148,7 @@ To resolve this issue, please remove this feature from your app.)
 
 2、2018年多款彩票类应用直接不给更新
 
-3、有抽奖、赌博的活动（猜测凡APP涉及抽奖/比赛/彩票/赌博内容/奖品涉及苹果公司产品）需要限制年龄17+，并且声明活动跟苹果无关
+3、有抽奖、赌博的活动（凡APP涉及抽奖/比赛/彩票/赌博内容/奖品涉及苹果公司产品）需要限制年龄17+，并且声明活动跟苹果无关
 
 (Guideline 5.3.2 - Legal - Gaming, Gambling, and Lotteries : Your app includes a contest or sweepstakes, but it does not indicate the Apple is not involved in any way with the contest or sweepstakes. Also. it does not enforce an app age rating of 17+.)
 
