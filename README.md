@@ -12,6 +12,9 @@
 
 1、有账号体系则需要有不依赖第三方的登录注册功能
 
+(Guideline 4.2.3 - Design - Minimum Functionality:
+We were required to install QQ before we could use your app. Apps should be able to run on launch, without requiring additional apps to be installed.Next StepsTo resolve this issue, please revise your app to ensure that users can use it upon launch. If your app requires authentication before use, please use methods that can authenticate users from within your app.)
+
 2、有账号体系则需有用户隐私协议
 
 3、不可使用苹果私有API
