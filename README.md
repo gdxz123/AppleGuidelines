@@ -26,7 +26,7 @@
 
 [开发者注意 苹果禁止在App设计中使用emoji](https://www.feng.com/iPhone/news/2018-02-05/_696078.shtml)
 
-[版权与商标使用条款](https://www.apple.com/legal/intellectual-property/guidelinesfor3rdparties.html)
+[苹果审核版权与商标使用条款](https://www.apple.com/legal/intellectual-property/guidelinesfor3rdparties.html)
 
 6、APP提审图iphoneX的介绍页需要有刘海
 
