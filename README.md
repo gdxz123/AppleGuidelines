@@ -47,7 +47,16 @@ We were required to install QQ before we could use your app. Apps should be able
 
 10、APP如果有下载比较大的资源，需要告知提醒用户下载内容大小
 
-11、如果没有定位、后台播放等功能，不可开通相关权限，收集用户隐私信息
+11、如果没有定位、后台播放等功能，不可开通相关权限，收集用户隐私信息；如果需要后台持续开启定位功能，则需要说明开启后台定位功能的理由跟增加电池寿命声明：“后台定位会导致电池寿命减少”
+
+(Guideline 2.16 - Multitasking Apps may only use background services for their intended purposes: VoIP, audio playback, location, task completion, local notifications, etc.
+2.16 Details
+Your app uses the Location Background mode but does not include the required "battery use" disclaimer in your Application Description.
+Next Steps
+Please add the following disclaimer to your Application Description:
+"Continued use of GPS running in the background can dramatically decrease battery life."
+Since your iTunes Connect Application State is Metadata Rejected, we do NOT require a new binary. To revise the metadata, visit iTunes Connect to select your app and revise the desired metadata values. Once you’ve completed all changes, click the “Submit for Review” button at the top of the App Information page.
+NOTE: Please be sure to make any metadata changes to all App Localizations by selecting each specific localization and making appropriate changes.)
  
 12、APP功能太少，会给苹果委婉拒绝并提示用网页开发
 
