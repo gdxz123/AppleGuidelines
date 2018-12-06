@@ -65,6 +65,11 @@ To resolve this issue, please complete, remove, or fully configure any partially
 
 15、目前审核人员主要在iPad上进行审核，即使app不兼容iPad也要保证app的UI交互在iPad上能正常进行
 
+(Guideline 2.4.1 - Performance - Hardware Compatibility
+We noticed that your app did not run at iPhone resolution when reviewed on iPad running iOS 11.0.3. Please see attached screenshots for details.
+Next Steps
+To resolve this issue, please revise your app to ensure it runs as expected and displays properly at iPhone resolution on iPad. Even if your app was developed specifically for iPhone, users should still be able to use your app on iPad.)
+
 16、要手机号验证码登录的APP，提审时，需要提供审核账号给审核人员，审核人员不会注册账号
 
 17、提审的APP要有一定的功能，如果都是H5页面，苹果会拒绝，要求你要网页做
