@@ -113,6 +113,7 @@ To resolve this issue, please remove this feature from your app.)
 1、图片社交、交友需要有拉黑举报功能
 
 2、需要提供2个正常的审核账号
+(Guideline 2.1 - Information Need : Provide an active demo account and login information, plus any other hardware or resources that might be needed to review your app (e.g. a sample QR code))
 
 ### 区块链应用
 
