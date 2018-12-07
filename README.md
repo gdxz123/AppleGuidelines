@@ -123,6 +123,16 @@ Your app unlocks or enables additional functionality with mechanisms such as pro
 Next Steps
 To resolve this issue, please remove this feature from your app.)
 
+24、可以使用户对App进行评论，但不允许诱导用户，比如语言、奖励诱导用户给好评。
+
+错误：
+1、亲，请给我们个五星好评呗～
+2、写评论领钻石奖励
+
+正确：
+1、亲，请给我们个评价呗～
+2、程序GG很幸苦，如果喜欢我们的话就去留个评价吧～
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
