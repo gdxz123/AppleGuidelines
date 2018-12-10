@@ -142,6 +142,11 @@ We noticed that your app incentivizes referrals in order to sign up new users. W
 
 (Guideline 2.3.7 - Performance - Accurate Metadata : Your app name or subtitle to be displayed on the App Store includes keywords or descriptors, which are not appropriate for use in these metadata items. Specifically, the following words in your app name or subtitle are considered keywords or descriptors.)
 
+27、内购里，虚拟货币等消耗型项目需要使用App自己的用户系统id，非消耗型的项目就必须使用苹果的账户体系，使用uuid作为唯一识别码。
+
+(Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage : 
+We noticed that your app requires users to register with personal information to purchase non account-based in-app purchase products, whitch does not comply with the App Store Review Guidelines.)
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
