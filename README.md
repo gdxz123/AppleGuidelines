@@ -129,6 +129,12 @@ To resolve this issue, please remove this feature from your app.)
 1、亲，请给我们个五星好评呗～
 2、写评论领钻石奖励
 
+25、邀请好友的功能不能涉及数字内容的奖励，这是苹果不接受的商业模式，因为这样的功能可以绕过苹果的内购的规定。常见在邀请好友的运营功能上被拒。
+
+(Guideline 3.2.2 - Business - Other Business Model Issues - Unacceptable : 
+We noticed that your app incentivizes referrals in order to sign up new users. While rewarding the invitation sender with points or other digital content is acceptable, the person receiving the invitation should not receive any rewards for downloading or registering an account to use your app.)
+
+
 正确：
 1、亲，请给我们个评价呗～
 2、程序GG很幸苦，如果喜欢我们的话就去留个评价吧～
