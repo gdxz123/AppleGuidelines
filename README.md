@@ -147,6 +147,13 @@ We noticed that your app incentivizes referrals in order to sign up new users. W
 (Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage : 
 We noticed that your app requires users to register with personal information to purchase non account-based in-app purchase products, whitch does not comply with the App Store Review Guidelines.)
 
+28、存在内购功能，但内购功能不能直接使用"元"、“人民币”等真实货币的描述
+
+(Guideline 1.1.6 - Safety - Objectionable Content : 
+We noticed that your app's in-app purchase products are labeled as 元, which could confuse and mislead users into believing they are purchasing a real currency.
+Next Steps:
+to avoid potential user confusion, please revise your app so that your in-app purchase product names or labels are distinct from any real-world currencies.)
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
