@@ -136,8 +136,11 @@ To resolve this issue, please remove this feature from your app.)
 25、邀请好友的功能不能涉及数字内容的奖励，这是苹果不接受的商业模式，因为这样的功能可以绕过苹果的内购的规定。常见在邀请好友的运营功能上被拒。
 
 (Guideline 3.2.2 - Business - Other Business Model Issues - Unacceptable : 
-We noticed that your app incentivizes referrals in order to sign up new users. While rewarding the invitation sender with points or other digital content is acceptable, the person receiving the invitation should not receive any rewards for downloading or registering an account to use your app.)
+We noticed that your app incentivizes referrals in order to sign up new users. While rewarding the invitation sender with points or other digital content is acceptable, the person receiving the invitation should not receive any rewards for downloading or registering an account to use your app.
 
+26、App名字那里不能增加使用副标题，如"-这个是副标题"，以前很多App这么使用，现在苹果增加了subtitle选项后就不给这么使用了。
+
+(Guideline 2.3.7 - Performance - Accurate Metadata : Your app name or subtitle to be displayed on the App Store includes keywords or descriptors, which are not appropriate for use in these metadata items. Specifically, the following words in your app name or subtitle are considered keywords or descriptors.)
 
 ### 社交类应用
 
