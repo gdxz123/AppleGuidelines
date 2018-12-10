@@ -154,6 +154,9 @@ We noticed that your app's in-app purchase products are labeled as 元, which co
 Next Steps:
 to avoid potential user confusion, please revise your app so that your in-app purchase product names or labels are distinct from any real-world currencies.)
 
+29、存在内购功能时，App提供的资料入网页、官网、等不能出现其他充值入口、内购政策、安卓等字眼。
+
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
