@@ -156,6 +156,10 @@ to avoid potential user confusion, please revise your app so that your in-app pu
 
 29、存在内购功能时，App提供的资料入网页、官网、等不能出现其他充值入口、内购政策、安卓等字眼。
 
+30、企业包的打包脚本不能放到项目工程里，苹果识别到企业包的打包脚本会怀疑App是否对外分发
+
+31、App设计中展现的素材不应该有版权风险，典型的例子是使用微软雅黑字体，导致被字体公司告，会使App面临下架封号处理。https://baijiahao.baidu.com/s?id=1580761271561083959&wfr=spider&for=pc
+
 
 ### 社交类应用
 
