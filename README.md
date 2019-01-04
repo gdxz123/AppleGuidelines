@@ -66,6 +66,9 @@ NOTE: Please be sure to make any metadata changes to all App Localizations by se
  
 12、APP功能太少，会给苹果委婉拒绝并提示用网页开发
 
+(Guideline 4.2.2 - Design - Minimum Functionality
+We noticed that your app only includes links, images, or content aggregated from the Internet with limited or no native iOS functionality. Although this content may be curated from the web specifically for your users, since it does not sufficiently differ from a mobile web browsing experience, it is not appropriate for the App Store.)
+
 13、应用不可出现预敬请期待、发布、试验、测试、test、beta、trial等不稳定版本字眼
 
 (Guideline 2.2 - Performance - Beta Testing : 
