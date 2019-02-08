@@ -163,6 +163,11 @@ to avoid potential user confusion, please revise your app so that your in-app pu
 
 31、App设计中展现的素材不应该有版权风险，典型的例子是使用微软雅黑字体，导致被字体公司告，会使App面临下架封号处理。https://baijiahao.baidu.com/s?id=1580761271561083959&wfr=spider&for=pc
 
+32、1.3.4 违反政策通知
+2. 3.1 - Hidden or undocumented features
+3. 1.1 - In-App Purchase
+Performance - 2.3.1 & Business - 3.1.1
+Your app contains hidden features that enable users to purchase content by means other than in-app purchase API. 
 
 ### 社交类应用
 
