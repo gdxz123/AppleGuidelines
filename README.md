@@ -169,6 +169,10 @@ to avoid potential user confusion, please revise your app so that your in-app pu
 Performance - 2.3.1 & Business - 3.1.1
 Your app contains hidden features that enable users to purchase content by means other than in-app purchase API. 
 
+33、Guideline 4.0 - Design
+We noticed an issue in your app that contributes to a lower quality user experience than Apple users expect:
+- Your app and it's metadata has not been fully localized for its intended markets.
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
