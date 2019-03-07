@@ -173,6 +173,13 @@ Your app contains hidden features that enable users to purchase content by means
 We noticed an issue in your app that contributes to a lower quality user experience than Apple users expect:
 - Your app and it's metadata has not been fully localized for its intended markets.
 
+34、Guideline 2.3.7 - Performance - Accurate Metadata
+We noticed that your screenshots do not sufficiently reflect your app in use.
+Specifically, your 6.5-inch iPhone screenshots do not display the app in the correct device frame.
+Next Steps
+To resolve this issue, please revise your screenshots to ensure that they accurately reflect the app in use on the supported devices. For iPhone, you need a set of 5.5-inch display screenshots and for iPad, you need a set for 12.9-inch display. This set will be scaled appropriately down to other device sizes when viewed on the App Store in each territory.
+Note that 6.5-inch display assets for iPhone XS Max are optional, and can scale down to iPhone XR, iPhone XS, and iPhone X. Screenshots that include features like rounded corners or sensor housing should only be used for the 6.5-inch or 5.8-inch display.
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
