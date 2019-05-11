@@ -128,6 +128,14 @@ To resolve this issue, please remove this feature from your app.)
 
 24、可以使用户对App进行评论，但不允许诱导用户，比如语言、奖励诱导用户给好评。
 
+25、代码如果出现itms-services可能会触发2.5.2拒绝条款，因为审核人员怀疑你引导用户下载企业包
+
+Guideline 2.5.2 - Performance - Software Requirements
+
+During review, your app installed or launched executable code, which is not permitted on the App Store. Specifically, your app uses the itms-services URL scheme to install an app.
+
+
+
 错误：
 1、亲，请给我们个五星好评呗～
 2、写评论领钻石奖励
