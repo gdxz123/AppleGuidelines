@@ -128,14 +128,6 @@ To resolve this issue, please remove this feature from your app.)
 
 24、可以使用户对App进行评论，但不允许诱导用户，比如语言、奖励诱导用户给好评。
 
-25、代码如果出现itms-services可能会触发2.5.2拒绝条款，因为审核人员怀疑你引导用户下载企业包
-
-Guideline 2.5.2 - Performance - Software Requirements
-
-During review, your app installed or launched executable code, which is not permitted on the App Store. Specifically, your app uses the itms-services URL scheme to install an app.
-
-
-
 错误：
 1、亲，请给我们个五星好评呗～
 2、写评论领钻石奖励
@@ -144,44 +136,51 @@ During review, your app installed or launched executable code, which is not perm
 1、亲，请给我们个评价呗～
 2、程序GG很幸苦，如果喜欢我们的话就去留个评价吧～
 
-25、邀请好友的功能不能涉及数字内容的奖励，这是苹果不接受的商业模式，因为这样的功能可以绕过苹果的内购的规定。常见在邀请好友的运营功能上被拒。
+
+25、代码如果出现itms-services可能会触发2.5.2拒绝条款，因为审核人员怀疑你引导用户下载企业包
+
+Guideline 2.5.2 - Performance - Software Requirements
+
+During review, your app installed or launched executable code, which is not permitted on the App Store. Specifically, your app uses the itms-services URL scheme to install an app.
+
+26、邀请好友的功能不能涉及数字内容的奖励，这是苹果不接受的商业模式，因为这样的功能可以绕过苹果的内购的规定。常见在邀请好友的运营功能上被拒。
 
 (Guideline 3.2.2 - Business - Other Business Model Issues - Unacceptable : 
 We noticed that your app incentivizes referrals in order to sign up new users. While rewarding the invitation sender with points or other digital content is acceptable, the person receiving the invitation should not receive any rewards for downloading or registering an account to use your app.
 
-26、App名字那里不能增加使用副标题，如"-这个是副标题"，以前很多App这么使用，现在苹果增加了subtitle选项后就不给这么使用了。
+27、App名字那里不能增加使用副标题，如"-这个是副标题"，以前很多App这么使用，现在苹果增加了subtitle选项后就不给这么使用了。
 
 (Guideline 2.3.7 - Performance - Accurate Metadata : Your app name or subtitle to be displayed on the App Store includes keywords or descriptors, which are not appropriate for use in these metadata items. Specifically, the following words in your app name or subtitle are considered keywords or descriptors.)
 
-27、内购里，虚拟货币等消耗型项目需要使用App自己的用户系统id，非消耗型的项目就必须使用苹果的账户体系，使用uuid作为唯一识别码。
+28、内购里，虚拟货币等消耗型项目需要使用App自己的用户系统id，非消耗型的项目就必须使用苹果的账户体系，使用uuid作为唯一识别码。
 
 (Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage : 
 We noticed that your app requires users to register with personal information to purchase non account-based in-app purchase products, whitch does not comply with the App Store Review Guidelines.)
 
-28、存在内购功能，但内购功能不能直接使用"元"、“人民币”等真实货币的描述
+29、存在内购功能，但内购功能不能直接使用"元"、“人民币”等真实货币的描述
 
 (Guideline 1.1.6 - Safety - Objectionable Content : 
 We noticed that your app's in-app purchase products are labeled as 元, which could confuse and mislead users into believing they are purchasing a real currency.
 Next Steps:
 to avoid potential user confusion, please revise your app so that your in-app purchase product names or labels are distinct from any real-world currencies.)
 
-29、存在内购功能时，App提供的资料入网页、官网、等不能出现其他充值入口、内购政策、安卓等字眼。
+30、存在内购功能时，App提供的资料入网页、官网、等不能出现其他充值入口、内购政策、安卓等字眼。
 
-30、企业包的打包脚本不能放到项目工程里，苹果识别到企业包的打包脚本会怀疑App是否对外分发
+31、企业包的打包脚本不能放到项目工程里，苹果识别到企业包的打包脚本会怀疑App是否对外分发
 
-31、App设计中展现的素材不应该有版权风险，典型的例子是使用微软雅黑字体，导致被字体公司告，会使App面临下架封号处理。https://baijiahao.baidu.com/s?id=1580761271561083959&wfr=spider&for=pc
+32、App设计中展现的素材不应该有版权风险，典型的例子是使用微软雅黑字体，导致被字体公司告，会使App面临下架封号处理。https://baijiahao.baidu.com/s?id=1580761271561083959&wfr=spider&for=pc
 
-32、1.3.4 违反政策通知
+33、1.3.4 违反政策通知
 2. 3.1 - Hidden or undocumented features
 3. 1.1 - In-App Purchase
 Performance - 2.3.1 & Business - 3.1.1
 Your app contains hidden features that enable users to purchase content by means other than in-app purchase API. 
 
-33、Guideline 4.0 - Design
+34、Guideline 4.0 - Design
 We noticed an issue in your app that contributes to a lower quality user experience than Apple users expect:
 - Your app and it's metadata has not been fully localized for its intended markets.
 
-34、Guideline 2.3.7 - Performance - Accurate Metadata
+35、Guideline 2.3.7 - Performance - Accurate Metadata
 We noticed that your screenshots do not sufficiently reflect your app in use.
 Specifically, your 6.5-inch iPhone screenshots do not display the app in the correct device frame.
 Next Steps
