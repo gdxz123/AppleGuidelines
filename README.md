@@ -187,6 +187,19 @@ Next Steps
 To resolve this issue, please revise your screenshots to ensure that they accurately reflect the app in use on the supported devices. For iPhone, you need a set of 5.5-inch display screenshots and for iPad, you need a set for 12.9-inch display. This set will be scaled appropriately down to other device sizes when viewed on the App Store in each territory.
 Note that 6.5-inch display assets for iPhone XS Max are optional, and can scale down to iPhone XR, iPhone XS, and iPhone X. Screenshots that include features like rounded corners or sensor housing should only be used for the 6.5-inch or 5.8-inch display.
 
+36、Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage
+We noticed that your app requests the user’s consent to access their photos but does not clarify the use of the photos in the applicable purpose string.
+APP需要使用权限时，需要说明权限的使用场景，而不只是简单说要这个权限，说清楚权限使用什么功能。
+
+37、Guideline 2.3 - Performance - Accurate Metadata
+We were unable to install the app on iPad￼￼. The UIRequiredDeviceCapabilities key in the Info.plist is set in such a way that the app will not install on an iPad￼￼ .
+
+这个问题有一些人遇到，但是我们实际测试时，在iPad真机是可以安装的，info.plist配置也没问题，后面我们拍了用testflight在iPad上安装的的视频并在解决方案中心回复，晚上时通过审核，怀疑是苹果自己的平台在安装时出现问题。回复模版：
+Dear app review team:
+Thank you for your patient work. 
+We had tested our app on iPad and we had successfully installed the app on iPad. We recorded a video to show the installation process. The video url is xxxxx(youtube url).  Could you tell us the specific iPad model and system version which were unable to install our app. We will modify the app immediately. Thank you very much.
+Best wishes for you.
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
