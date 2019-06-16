@@ -200,6 +200,9 @@ Thank you for your patient work.
 We had tested our app on iPad and we had successfully installed the app on iPad. We recorded a video to show the installation process. The video url is xxxxx(youtube url).  Could you tell us the specific iPad model and system version which were unable to install our app. We will modify the app immediately. Thank you very much.
 Best wishes for you.
 
+38、Guideline 5.2.3 - Legal - Intellectual Property
+Your app falls into a category of apps that is often used for illegal file sharing. 
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
