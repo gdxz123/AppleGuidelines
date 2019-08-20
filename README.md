@@ -203,6 +203,10 @@ Best wishes for you.
 38、Guideline 5.2.3 - Legal - Intellectual Property
 Your app falls into a category of apps that is often used for illegal file sharing. 
 
+39、In an effort to open up additional opportunities for developers, we’ve worked with the government of the Republic of Korea on making more apps available on the App Store in the Republic of Korea. And to ensure that our global age rating system continues to help make the App Store safe for kids, apps that feature Frequent/Intense Simulated Gambling will be rated 17+ in all countries and regions starting August 20, 2019. 
+
+APP内包含博彩、暴力内容的元素，年龄需要在17+
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
