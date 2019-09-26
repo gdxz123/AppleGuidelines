@@ -207,6 +207,8 @@ Your app falls into a category of apps that is often used for illegal file shari
 
 APP内包含博彩、暴力内容的元素，年龄需要在17+
 
+40、4.8 Sign in with Apple: Apps that exclusively use a third-party or social login service (such as Facebook Login, Google Sign-In, Sign in with Twitter, Sign In with LinkedIn, Login with Amazon, or WeChat Login) to set up or authenticate the user’s primary account with the app must also offer Sign in with Apple as an equivalent option
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
