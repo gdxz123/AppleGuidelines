@@ -209,6 +209,17 @@ APP内包含博彩、暴力内容的元素，年龄需要在17+
 
 40、4.8 Sign in with Apple: Apps that exclusively use a third-party or social login service (such as Facebook Login, Google Sign-In, Sign in with Twitter, Sign In with LinkedIn, Login with Amazon, or WeChat Login) to set up or authenticate the user’s primary account with the app must also offer Sign in with Apple as an equivalent option
 
+41、We are unable to continue this app's review because your Apple Developer Program account is currently under investigation for not following the App Store Review Guidelines' Developer Code of Conduct.
+Inaccurately describing an app or service
+-Misleading app content
+-Engaging in inauthentic ratings and reviews manipulation
+-Providing misleading customer support responses
+-providing misleading responses in Resolution Center
+-Engaging in misleading purchasing or bait-and-switch schemes
+
+这个一般是因为账户存在违规操作，如刷榜、或者购买的开发者出问题（可能是卖卡方用同一张信用卡开通太多账号，有些账号违规导致牵连）
+
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
