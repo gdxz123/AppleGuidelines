@@ -239,6 +239,12 @@ Inaccurately describing an app or service
 
 2、名字跟开发者账号挂钩
 
+### VPN类型
+1、条款见：通用条款 —— 5.4 VPN App（https://developer.apple.com/cn/app-store/review/guidelines/）
+
+2、中国要求所有VPN应用的开发商都需要获得VPN许可证（电信增值业务 VPN的牌照）见：https://zh.wikipedia.org/wiki/中国区App_Store下架VPN应用事件
+
+
 ### 彩票类
 
 1、中国区彩票不给网上线上销售，动了别人的蛋糕
