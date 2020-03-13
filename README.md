@@ -219,6 +219,14 @@ Inaccurately describing an app or service
 
 这个一般是因为账户存在违规操作，如刷榜、或者购买的开发者出问题（可能是卖卡方用同一张信用卡开通太多账号，有些账号违规导致牵连）
 
+42、Guideline 3.2.2 - Business - Other Business Model Issues - Unacceptable
+We noticed that your app includes an interface that displays or promotes mini programs for third-party apps, which is not appropriate for the App Store.
+
+Next Steps
+To resolve this issue, please remove any features in your app that promote programs for third-party apps.
+
+这个是因为产品的主要功能逻辑强依赖第三方软件，如微信小程序，这样的商业逻辑，苹果是不接受的。APP产品的主要功能逻辑需要不依赖第三方软件，不然会形成诱导用户下载第三方APP，这是苹果不允许的。
+
 
 ### 社交类应用
 
