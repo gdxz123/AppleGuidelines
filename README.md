@@ -227,6 +227,8 @@ To resolve this issue, please remove any features in your app that promote progr
 
 这个是因为产品的主要功能逻辑强依赖第三方软件，如微信小程序，这样的商业逻辑，苹果是不接受的。APP产品的主要功能逻辑需要不依赖第三方软件，不然会形成诱导用户下载第三方APP，这是苹果不允许的。
 
+43、Testflight 公测分发时，如果短时间用户增长过快，很容易账户被苹果调查，需控制好用户数量
+
 
 ### 社交类应用
 
