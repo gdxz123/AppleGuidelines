@@ -272,6 +272,13 @@ To resolve this issue, please remove any features in your app that promote progr
 
 3、APP商品如果是实物可走第三方支付渠道，如信用卡，微信、支付宝等支付渠道
 
+### 登录相关
+1、当用户使用sign with apple时，登录后不应该去获取用户的手机号、性别、出生年月等信息，需要保护用户的隐私安全。
+
+（Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage
+We noticed that your app requires users to register or log in to access features that are not account-based.  
+Specifically, we were required to provide phone number after using Sign in with Apple.）
+
 ### 硬件
 1、提审硬件相关的软件，需要录制一个演示视频来展示所有功能的交互操作，并且把视频链接上传到youtube上，这样美国审核时能访问
 
