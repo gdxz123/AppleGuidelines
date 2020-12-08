@@ -230,6 +230,12 @@ To resolve this issue, please remove any features in your app that promote progr
 43、Testflight 公测分发时，如果短时间用户增长过快，很容易账户被苹果调查，需控制好用户数量
 
 
+### 少儿类
+
+1、Guideline 1.3 - Safety - Kids Category - We noticed that your Kids Category app includes analytics, advertising and collects, transmits, or has the ability to share personal information or device information with third parties. 
+
+少儿类APP苹果控制得很严格，如果检测到代码使用一些数据收集SDK，或者去获取用户一些敏感数据，都很容易触发这个。要么移除获取数据的SDK，要么提升年龄等级
+
 ### 社交类应用
 
 1、图片社交、SNS、交友需要有拉黑举报功能
