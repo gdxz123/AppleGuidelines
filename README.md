@@ -229,6 +229,10 @@ To resolve this issue, please remove any features in your app that promote progr
 
 43、Testflight 公测分发时，如果短时间用户增长过快，很容易账户被苹果调查，需控制好用户数量
 
+44、因为接入某些统计SDK，采集CAID导致审核被拒问题，可能是某些统计SDK因为某些原因被拉入黑名单，所以导致集成后被拒。
+“We found in our review that your app collects user and device information to create a unique identifier for the user's device. Apps that fingerprint the user's device in this way are in violation of the Apple Developer Program License Agreement and are not appropriate for the App Store.Specifically, your app uses algorithmically converted device and usage data to create a unique identifier in order to track the user. The device information collected by your app may include some of the following: sysctl, serviceSubscriberCellularProviders, NSFileSystemSize, isoCountryCode, and NSProcessInfo.”
+
+We continue to find that your app collects user and device information to create a unique identifier for the user's device. Your app may be using some of the following API to create a unique identifier for the user's device: XX_FINGERPRINTING_METHODS_XX
 
 ### 少儿类
 
