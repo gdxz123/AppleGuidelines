@@ -302,7 +302,9 @@ Guideline 1.3 - Safety - Kids Category - We noticed that your Kids Category app 
 
 ### 直播类
 
-1、5. 2.1 Legal: Intellectual Property - General
+- 被拒原因应该是 申请人在领取营业执照后3天内，必须将《网络文化经营许可证》和营业执照的复印件分别报受理申请的县（市、区）级文化行政部门、公安部门备案
+```
+5. 2.1 Legal: Intellectual Property - General
 Guideline 5.2.1 - Legal - Intellectual Property
 Your app facilitates, enables, or encourages live video chat or performance (网络直播/表演/秀场), but you haven’t provided the appropriate documentation for the services in your app.
 Next Steps
@@ -318,10 +320,12 @@ To provide documentation:
 - Attach the scanned copy of your Internet Cultural Business License (网络文化经营许可证) in the "Attachment" section
 - Click "Save"
 Once this information is available, please reply to this message in Resolution Center, and we can continue with our review.
+```
 
-目前被拒原因应该是 申请人在领取营业执照后3天内，必须将《网络文化经营许可证》和营业执照的复印件分别报受理申请的县（市、区）级文化行政部门、公安部门备案
 
-2、Guideline 3.1.1 - Business - Payments - In-App Purchase
+- APP打赏问题,不能直接红包打赏,提示信息不能直接显示红包内容,只能换成对等的虚拟物品进行打赏
+```
+Guideline 3.1.1 - Business - Payments - In-App Purchase
 
 We noticed that your app allows users to "tip" the digital content creators in your app with a mechanism other than the in-app purchase API, which is not appropriate for the App Store.
 
@@ -330,91 +334,97 @@ Next Steps
 To resolve this issue, please revise your app to use the in-app purchase API to pay for these sorts of transactions. Please note that while guideline 3.2.1(vii) of the App Store Review Guidelines allows individual users to give a monetary gift to another individual user without using in-app purchase, that gift must not be connected to or associated at any point in time with receiving digital content or services.
 
 While the payment system that you have included may conduct the transaction outside of the app, if the purchasable content, functionality, or services are intended to be consumed within the app, they must be purchased through in-app purchase - unless it is of the type referenced in guideline 3.1.3 of the App Store Review Guidelines.
+```
 
-APP打赏问题,不能直接红包打赏,提示信息不能直接显示红包内容,只能换成对等的虚拟物品进行打赏
-
-3、直播类APP年龄分级需要17+
+- 直播类APP年龄分级需要17+
 
 
 ### 社交类应用
 
-1、图片社交、SNS、交友需要有拉黑举报功能
+- 图片社交、SNS、交友需要有拉黑举报功能
 
-2、需要提供2个正常的审核账号
+- 需要提供2个正常的审核账号
+```
 (Guideline 2.1 - Information Need : Provide an active demo account and login information, plus any other hardware or resources that might be needed to review your app (e.g. a sample QR code))
+```
 
 ### 区块链应用
 
 中国区
 
-1、需要中心化的账号体系
+- 需要中心化的账号体系
 
 ### 金融类
 
-1、理财类产品需要理财资质证明
+- 理财类产品需要理财资质证明
 
-2、名字跟开发者账号挂钩
+- 名字跟开发者账号挂钩
 
 ### VPN类型
-1、条款见：通用条款 —— 5.4 VPN App（https://developer.apple.com/cn/app-store/review/guidelines/）
 
-2、中国要求所有VPN应用的开发商都需要获得VPN许可证（电信增值业务 VPN的牌照）见：https://zh.wikipedia.org/wiki/中国区App_Store下架VPN应用事件
+- 条款见：通用条款 —— 5.4 VPN App（https://developer.apple.com/cn/app-store/review/guidelines/）
+
+- 中国要求所有VPN应用的开发商都需要获得VPN许可证（电信增值业务 VPN的牌照）见：https://zh.wikipedia.org/wiki/中国区App_Store下架VPN应用事件
 
 
 ### 彩票类
 
-1、中国区彩票不给网上线上销售，动了别人的蛋糕
+- 中国区彩票不给网上线上销售，动了别人的蛋糕
 
-2、2018年多款彩票类应用直接不给更新
+- 2018年多款彩票类应用直接不给更新
 
-3、有抽奖、赌博的活动（凡APP涉及抽奖/比赛/彩票/赌博内容/奖品涉及苹果公司产品）需要限制年龄17+，并且声明活动跟苹果无关
-
+- 有抽奖、赌博的活动（凡APP涉及抽奖/比赛/彩票/赌博内容/奖品涉及苹果公司产品）需要限制年龄17+，并且声明活动跟苹果无关
+```
 (Guideline 5.3.2 - Legal - Gaming, Gambling, and Lotteries : Your app includes a contest or sweepstakes, but it does not indicate the Apple is not involved in any way with the contest or sweepstakes. Also. it does not enforce an app age rating of 17+.)
+```
 
 ### 商城
-1、APP商品如果是虚拟物品需要走苹果内购渠道
+- APP商品如果是虚拟物品需要走苹果内购渠道
 
-2、APP内的虚拟商品不可购买后在第三方APP上使用
+- APP内的虚拟商品不可购买后在第三方APP上使用
 
-3、APP商品如果是实物可走第三方支付渠道，如信用卡，微信、支付宝等支付渠道
+- APP商品如果是实物可走第三方支付渠道，如信用卡，微信、支付宝等支付渠道
 
 ### 登录相关
-1、当用户使用sign with apple时，登录后不应该去获取用户的手机号、性别、出生年月等信息，需要保护用户的隐私安全。
-
+- 当用户使用sign with apple时，登录后不应该去获取用户的手机号、性别、出生年月等信息，需要保护用户的隐私安全。
+```
 （Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage
 We noticed that your app requires users to register or log in to access features that are not account-based.  
 Specifically, we were required to provide phone number after using Sign in with Apple.）
+```
 
 ### 硬件
-1、提审硬件相关的软件，需要录制一个演示视频来展示所有功能的交互操作，并且把视频链接上传到youtube上，这样美国审核时能访问
+- 提审硬件相关的软件，需要录制一个演示视频来展示所有功能的交互操作，并且把视频链接上传到youtube上，这样美国审核时能访问
 
-2、演示视频里，一定要用真实的设备、苹果手机进行演示，不要使用模拟器
+- 演示视频里，一定要用真实的设备、苹果手机进行演示，不要使用模拟器
 
-3、演示视频里一定要使用所有功能，让苹果了解各个功能的使用情况，登录前、登录后的功能
+- 演示视频里一定要使用所有功能，让苹果了解各个功能的使用情况，登录前、登录后的功能
 
 ### 游戏
 中国区
 
-1、需要游戏著作权、版号、网文号
+- 需要游戏著作权、版号、网文号
 
-2、网游针对未成年防沉迷系统
+- 网游针对未成年防沉迷系统
 
-3、如果APP有博彩类游戏，一定要声明活动与苹果无关
-
+- 如果APP有博彩类游戏，一定要声明活动与苹果无关
+```
 (Guideline 5.3.2 - Legal - Gaming, Gambling, and Lotteries : Your app includes a contest or sweepstakes, but it does not indicate the Apple is not involved in any way with the contest or sweepstakes.)
+```
 
 ### 马甲包制作
 
-1、需要修改：账号，IP，名字，包名，方法名，类名，图片名，图片md5
-
+- 需要修改：账号，IP，名字，包名，方法名，类名，图片名，图片md5
+```
 (Guideline 4.3 - Design : We noticed that your app provides the same feature set as other apps submitted to the App Store; it simply varies in content or language, which is considered a form of spam.)
+```
 
 ### 惩罚相关
 
-1、苹果对黄赌毒 0容忍，一经过发现，立刻下架，并有可能封号
+- 苹果对黄赌毒 0容忍，一经过发现，立刻下架，并有可能封号
 
-2、如刷榜、虚假评论、版权纠纷、欺诈行为、企业分发等行为给发现后会给封号
+- 如刷榜、虚假评论、版权纠纷、欺诈行为、企业分发等行为给发现后会给封号
 
-3、遇到苹果的警告邮件，应保持冷静，同时提交申诉邮件，不要转走应用，苹果能追查到，严重时会连锁封号
+- 遇到苹果的警告邮件，应保持冷静，同时提交申诉邮件，不要转走应用，苹果能追查到，严重时会连锁封号
 
-4、苹果最近的惩罚采用连带制度，如果一个账号加入多个企业组织，很容易因为一个账号被封导致其他账号也一起遭殃。最好一个apple id归属一个组织，同时提审时尽量用不同IP跟机器
+- 苹果最近的惩罚采用连带制度，如果一个账号加入多个企业组织，很容易因为一个账号被封导致其他账号也一起遭殃。最好一个apple id归属一个组织，同时提审时尽量用不同IP跟机器
