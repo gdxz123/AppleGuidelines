@@ -282,6 +282,8 @@ While the payment system that you have included may conduct the transaction outs
 
 APP打赏问题,不能直接红包打赏,提示信息不能直接显示红包内容,只能换成对等的虚拟物品进行打赏
 
+3、直播类APP年龄分级需要17+
+
 
 ### 社交类应用
 
