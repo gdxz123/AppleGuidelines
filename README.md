@@ -234,10 +234,54 @@ To resolve this issue, please remove any features in your app that promote progr
 
 We continue to find that your app collects user and device information to create a unique identifier for the user's device. Your app may be using some of the following API to create a unique identifier for the user's device: XX_FINGERPRINTING_METHODS_XX
 
+45、Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage
+We noticed that your app requires users to register with personal information to access non account-based features. Apps cannot require user registration prior to allowing access to app content and features that are not associated specifically to the user.
+
+Next Steps
+
+User registration that requires the sharing of personal information must be optional or tied to account-specific functionality. Additionally, the requested information must be relevant to the features.Please see attached screenshot for details.
+
+直接去掉强制登录,或者在登录页面加入跳过按钮,我选择是去掉强制登录功能
+
+
 ### 少儿类
 
 1、Guideline 1.3 - Safety - Kids Category - We noticed that your Kids Category app includes analytics, advertising and collects, transmits, or has the ability to share personal information or device information with third parties. 
 少儿类APP苹果控制得很严格，如果检测到代码使用一些数据收集SDK，或者去获取用户一些敏感数据，都很容易触发这个。要么移除获取数据的SDK，要么提升年龄等级
+
+### 直播类
+
+1、5. 2.1 Legal: Intellectual Property - General
+Guideline 5.2.1 - Legal - Intellectual Property
+Your app facilitates, enables, or encourages live video chat or performance (网络直播/表演/秀场), but you haven’t provided the appropriate documentation for the services in your app.
+Next Steps
+To resolve this issue, please complete the following:
+— Provide a copy of your filing record with the China Public Security Bureau (公安机关互联网备案信息). 
+Resources
+To provide documentation:
+- Log in to App Store Connect
+- Click on "My Apps"
+- Select your app
+- Click on the app version on the left side of the screen
+- Scroll down to "App Review Information"
+- Attach the scanned copy of your Internet Cultural Business License (网络文化经营许可证) in the "Attachment" section
+- Click "Save"
+Once this information is available, please reply to this message in Resolution Center, and we can continue with our review.
+
+目前被拒原因应该是 申请人在领取营业执照后3天内，必须将《网络文化经营许可证》和营业执照的复印件分别报受理申请的县（市、区）级文化行政部门、公安部门备案
+
+2、Guideline 3.1.1 - Business - Payments - In-App Purchase
+
+We noticed that your app allows users to "tip" the digital content creators in your app with a mechanism other than the in-app purchase API, which is not appropriate for the App Store.
+
+Next Steps
+
+To resolve this issue, please revise your app to use the in-app purchase API to pay for these sorts of transactions. Please note that while guideline 3.2.1(vii) of the App Store Review Guidelines allows individual users to give a monetary gift to another individual user without using in-app purchase, that gift must not be connected to or associated at any point in time with receiving digital content or services.
+
+While the payment system that you have included may conduct the transaction outside of the app, if the purchasable content, functionality, or services are intended to be consumed within the app, they must be purchased through in-app purchase - unless it is of the type referenced in guideline 3.1.3 of the App Store Review Guidelines.
+
+APP打赏问题,不能直接红包打赏,提示信息不能直接显示红包内容,只能换成对等的虚拟物品进行打赏
+
 
 ### 社交类应用
 
