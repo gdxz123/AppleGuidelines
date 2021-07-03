@@ -252,6 +252,30 @@ In an effort to open up additional opportunities for developers, we’ve worked 
 4.8 Sign in with Apple: Apps that exclusively use a third-party or social login service (such as Facebook Login, Google Sign-In, Sign in with Twitter, Sign In with LinkedIn, Login with Amazon, or WeChat Login) to set up or authenticate the user’s primary account with the app must also offer Sign in with Apple as an equivalent option
 ```
 
+- 接入苹果登录，苹果登录按钮样式需要符合官方设计规范，需要在登录页面显示，不可隐藏到别的页面或者隐藏起来，设计跟位置需要跟其他第三方登录权重一样。
+```
+Guideline 4.0 - Design 
+Your app offers Sign in with Apple as a login option but does not use the 
+appropriate Sign in with Apple button design, placement, and/or user 
+interface elements. Specifically:
+- Sign in with Apple is not displayed in the app as an equivalent option 
+for logging in. Sign in with Apple buttons should have a similar design as 
+the buttons for other log in options, and the button should not be placed 
+on separate pages or otherwise hidden. 
+Next Steps
+Please revise the Sign in with Apple buttons in your app so that they are 
+compliant with the App Store Review Guidelines and the Sign in With 
+Apple Human Interface Guidelines. 
+Resources 
+For information on implementing Sign in with Apple in your app:
+- Review Displaying Sign in with Apple Buttons if your sign in process 
+happens in a browser.
+- Review the Sign in with Apple Human Interface Guidelines for an 
+overview of design and formatting recommendations for Sign in with 
+Apple.
+Please see attached screenshot for details.
+```
+
 - 这个一般是因为账户存在违规操作，如刷榜、或者购买的开发者出问题（可能是卖卡方用同一张信用卡开通太多账号，有些账号违规导致牵连）
 ```
 We are unable to continue this app's review because your Apple Developer Program account is currently under investigation for not following the App Store Review Guidelines' Developer Code of Conduct.
@@ -291,6 +315,19 @@ We noticed that your app requires users to register with personal information to
 Next Steps
 
 User registration that requires the sharing of personal information must be optional or tied to account-specific functionality. Additionally, the requested information must be relevant to the features.Please see attached screenshot for details.
+```
+
+- APP存在内购功能时，建议不要出现太大金额的充值，如果出现大金额充值，苹果会询问在哪些场景使用
+```
+Guideline 3.0 - Business 
+We began our review, but we are unable to continue because we need 
+additional information about your app.
+Specifically, can you confirm that xxx USD is the intended price of 
+your in-app purchase product, xxx⾦币? Additionally, please explain 
+what factors led you to choose this pricing.
+Once we receive your confirmation, we will continue our review. If 
+there's additional information you'd like to provide, please include it in 
+your response to this message in Resolution Center.
 ```
 
 ### 少儿类
