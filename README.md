@@ -206,6 +206,26 @@ We noticed an issue in your app that contributes to a lower quality user experie
 - Your app and it's metadata has not been fully localized for its intended markets.
 ```
 
+```
+Guideline 4.3 - Design
+
+We noticed that your app icon is identical to the icons of other apps already submitted to the App Store.
+Apps that use the same icon make it difficult for users to find apps and are considered a form of spam.
+Next Steps
+To resolve this issue, please revise your app icon to ensure it is unique and does not duplicate the icon of another app.
+Please see attached screenshot for details. 
+```
+指责APP Icon存在抄袭，让换一个新的Icon。但是APP Icon是自己设计的，应该是被别的APP抄袭，所以回复Icon是自己设计的，并提供Icon文件的生成日期截图。第二天苹果回复
+```
+Hello,
+Thank you for providing this information. 
+We will continue the review, and will notify you if there are any further issues.
+Best regards,
+App Store Review
+```
+APP审核通过，并发布上线
+
+
 - 准确元数据
 ```
 Guideline 2.3.7 - Performance - Accurate Metadata
