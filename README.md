@@ -69,7 +69,7 @@ Since your iTunes Connect Application State is Metadata Rejected, we do NOT requ
 NOTE: Please be sure to make any metadata changes to all App Localizations by selecting each specific localization and making appropriate changes.) 
 ```
 
-- APP功能太少，会给苹果委婉拒绝并提示用网页开发
+- APP功能太少，会给苹果委婉拒绝并提示用网页开发，解决方案是加入手机原生硬件相关功能，增大需要上APP的说服力，如相机来扫一扫，手机相册读取照片，等等
 ```
 (Guideline 4.2.2 - Design - Minimum Functionality
 We noticed that your app only includes links, images, or content aggregated from the Internet with limited or no native iOS functionality. Although this content may be curated from the web specifically for your users, since it does not sufficiently differ from a mobile web browsing experience, it is not appropriate for the App Store.)
