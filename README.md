@@ -10,23 +10,30 @@
 
 - 被拒分两种类型，第一种是元数据被拒(Meta Data)，第二种是(Binary Data)；元数据主要iTunes connect上的应用资料填写问题，Binary Data主要是提审的包存在问题
 
-- 有账号体系则需要有不依赖第三方的登录注册功能
+- 有账号体系则需要有不依赖第三方的登录注册功能，目前要求有账号登录功能则一定要接入提供sigin with apple，且设计logo 文案都需要按照官方要求，这是为了保护用户数据隐私
 
 ```
 (Guideline 4.2.3 - Design - Minimum Functionality:
 We were required to install QQ before we could use your app. Apps should be able to run on launch, without requiring additional apps to be installed.Next StepsTo resolve this issue, please revise your app to ensure that users can use it upon launch. If your app requires authentication before use, please use methods that can authenticate users from within your app.)
+
+Guideline 4.2.3 - Design - Minimum Functionality:
+我们必须先安装QQ，然后才能使用您的应用程序。应用程序应该能够在启动时运行，而不需要安装其他应用程序。下一步要解决此问题，请修改您的应用程序，以确保用户可以在启动时使用它。如果您的应用程序在使用前需要进行身份验证，请使用可以在应用程序中对用户进行身份验证的方法。(目前有账号登录功能都一定要接入提供sigin with apple)
 ```
 
 - 有账号体系则需有用户隐私协议
 
-- 不可使用苹果私有API
+- 不可使用苹果私有API，苹果私有API有工具可以进行代码检测。
 ```
-(Guideline 3.3.1 - Applications may only use Documented APIs in manner prescribed by Apple and must not use or call any private APIs.)
+(Guideline 3.3.1 : Applications may only use Documented APIs in manner prescribed by Apple and must not use or call any private APIs.)
+
+Guideline 3.3.1 : 应用程序只能按照苹果公司规定的方式使用文档化API，不得使用或调用任何私有API。
 ```
 
-- 不支持ipv6网络访问，美国地区需要支持iPv6，需把审核地区设置成中国即可
+- 不支持ipv6网络访问，美国地区需要支持IPv6，需把审核地区设置成中国即可，这样审核会不要求IPV6，应该是因为IPV6在美国覆盖率很高，审核人员的网络可能就是IPV6，导致他体验不了APP，所以要求APP在IPV6覆盖率高的国家上架时要求支持，但中国地区不强制要求。
 ```
 (Guideline 2.1 - Performance - App Completeness : We discovered one or more bugs in your app when reviewed on iPad running iOS 12.0.0 on Wi-Fi connected to an IPv6 network.)
+
+Guideline 2.1 - 性能-应用程序完整性：当我们在连接到IPv6网络的Wi-Fi上运行iOS 12.0.0的iPad上进行审查时，发现您的应用程序中有一个或多个错误。
 ```
 
 - 版权问题，不要使用明显有版权争议的素材资源、如emoji、苹果logo、美国电影等 如：
@@ -82,6 +89,12 @@ Your app appears to be a pre-release, test, or trial version with a limited feat
 Please see attached screenshots for details.
 Next Steps
 To resolve this issue, please complete, remove, or fully configure any partially implemented features. Additionally, remove all references to "demo," "trial," "beta," or "test" in your app description, app icon, screenshots, previews, release notes, and binary. )
+
+Guideline 2.2 - Performance - Beta Testing : 
+您的应用程序似乎是预发布、测试或试用版，具有有限的功能集。为演示或试用目的创建的应用程序不适合应用商店。
+有关详细信息，请参阅所附的屏幕截图。
+接下来的步骤
+若要解决此问题，请完成、删除或完全配置任何部分实现的功能。此外，请删除应用程序描述、应用程序图标、屏幕截图、预览、发布说明和二进制文件中对“演示”、“demo”、“试用版”、“trial”、“测试版”、“beta”、“test”或“测试”的所有引用。
 ```
 
 - APP内不可自己检测更新或引导下载第三方APP,APP如果做了检测更新应该引导用户跳到appstore进行更新
@@ -103,7 +116,18 @@ To resolve this issue, please revise your app to ensure it runs as expected and 
 ```
 (Guideline 4.2.2 - Design - Minimum Functionality : We noticed that your app only includes links, images, or content aggregated from the Internet with limited or no native iOS functionality. Although this content may be curated from the web specifically for your users, since it does not sufficiently differ from a mobile web browsing experience, it is not appropriate for the App Store.)
 
+Guideline 4.2.2 - Design - Minimum Functionality : 我们注意到，您的应用程序只包括链接、图像或从互联网聚合的内容，并且本地iOS功能有限或没有。尽管这些内容可能是专门为您的用户从网络上策划的，但由于它与移动网络浏览体验没有足够的区别，因此这个软件不适合App Stroe。
+
 (Guideline 4.2 - Design - Minimum Functionality : Thank you for your resubmission and making the changes. We found that the usefulness of your app is limited by the miniaml amount of content or features it includes. Specifically, your app only provides a code contest without other account-based or iOS user interactive features.)
+
+Guideline 4.2.2 - Design - Minimum Functionality : 感谢您重新提交并做出更改。我们发现，您的应用程序的有用性受到其包含的内容或功能的微小数量的限制。具体来说，您的应用程序只提供代码竞赛，没有其他基于帐户系统或iOS用户交互功能。
+```
+
+- 存在功能的开关被发现，需要移除开关，或者修改代码变得更加隐秘，建议先移除开关，再慢慢加上
+```
+(Specifically, this app still includes a network call which causes it to behave differently during review.  It would be appropriate to remove any review check related content found in the network traffic to ensure that all features and functions in the app are visible and fully accessible during review.)
+
+具体来说，这个应用仍然包括一个网络请求调用来导致它在审核过程中表现不同。你最好删除这个网络请求调用和相关内容来保证APP的功能全都可见，并且可以完全访问。
 ```
 
 - 需要用户开启相册、相机、定位等权限时，要在访问弹框里明确说明用途
