@@ -77,7 +77,7 @@ Guideline 2.3.3 - Performance - Accurate Metadata
 Upon further review, your screenshot(s) for iPhone 5.8'' does not reflect the app in use on iPhoneX.
 
 翻译:
-指南2.3.3 — 性能——准确的元数据
+指南2.3.3 — 表现 — 准确的元数据
 经进一步审查，您的iPhone 5.8寸的屏幕截图并未反映是在iPhone X上正在使用的应用程序，一般就是刘海屏需要展示出来。
 ```
 - 审核人员大部分用iPad进行审核，APP需要在ipad里正常使用，（可能iPad成本便宜而且屏幕大）
@@ -87,6 +87,7 @@ Guideline 2.4.1 - Performance - Hardware Compatibility
 We noticed that your app did not run at iPhone resolution when reviewed on iPad running iOS 12.0.0. Please see attached screenshots for details.
 
 翻译:
+指南2.4.1 - 表现 - 硬件兼容性
 我们注意到，在运行iOS 12.0.0的iPad上查看时，您的应用程序没有以iPhone分辨率运行。有关详细信息，请参阅所附的屏幕截图。
 ```
 - 有账号体系需要提供审核账号
@@ -135,7 +136,7 @@ Multitasking Apps may only use background services for their intended purposes: 
 Your app uses the Location Background mode but does not include the required "battery use" disclaimer in your Application Description.
 
 翻译:
-指南2.16 细节
+指南2.16 - 细节
 您的应用程序使用 Location Background 模式，但未在您的应用程序描述中包含所需的“电池使用”免责声明。
 
 Next Steps
@@ -168,7 +169,7 @@ Next Steps
 To resolve this issue, please complete, remove, or fully configure any partially implemented features. Additionally, remove all references to "demo," "trial," "beta," or "test" in your app description, app icon, screenshots, previews, release notes, and binary. 
 
 翻译: 
-指南2.2 — 性能 — Beta测试
+指南2.2 — 表现 — Beta测试
 您的应用程序似乎是预发布、测试或试用版，具有有限的功能集。为演示或试用目的创建的应用程序不适合应用商店。
 有关详细信息，请参阅所附的屏幕截图。
 接下来的步骤
@@ -241,13 +242,13 @@ We noticed that your app requests the user's consent to access their camera but 
 
 - App名字、关键词不能涵盖其他著名应用的信息
 ```
-Performance - 2.3.7
+Guideline 2.3.7 - Performance
 
 your app name to be displayed on the App Store includes keywords or descriptore, whitch are not appropriate for use in an app name. Specifically, the following words in your app name are considered keywords or descriptors: xxxxxxxx
 
 
 翻译:
-表现 - 2.3.7
+指南2.3.7 - 表现
 您要在 App Store 上显示的应用程序名称包含不适合在应用程序名称中使用的关键字或描述符。具体来说，您应用名称中的以下词被视为关键字或描述符: xxxxxxxx
 ```
 
@@ -446,6 +447,7 @@ To resolve this issue, please revise your screenshots to ensure that they accura
 Note that 6.5-inch display assets for iPhone XS Max are optional, and can scale down to iPhone XR, iPhone XS, and iPhone X. Screenshots that include features like rounded corners or sensor housing should only be used for the 6.5-inch or 5.8-inch display.
 
 翻译:
+指南2.3.7 - 表现 - 准确的元数据
 我们注意到您的屏幕截图不足以反映您正在使用的应用程序。
 具体来说，您的 6.5 英寸 iPhone 屏幕截图未在正确的设备框架中显示该应用程序。
 下一步
@@ -459,6 +461,7 @@ Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage
 We noticed that your app requests the user’s consent to access their photos but does not clarify the use of the photos in the applicable purpose string.
 
 翻译:
+指南5.1.1 - 法律 - 隐私 - 数据收集和存储
 我们注意到您的应用程序请求用户同意访问他们的照片，但没有在适用的目的字符串中阐明照片的用途。
 ```
 
@@ -472,6 +475,7 @@ Guideline 2.3 - Performance - Accurate Metadata
 We were unable to install the app on iPad￼￼. The UIRequiredDeviceCapabilities key in the Info.plist is set in such a way that the app will not install on an iPad￼￼ .
 
 翻译:
+指南2.3 - 表现 - 准确的元数据
 我们无法在 iPad 上安装应用程序￼￼。 Info.plist 中的 UIRequiredDeviceCapabilities 键设置为应用程序不会安装在 iPad 上￼￼。
 ```
 这个问题有一些人遇到，但是我们实际测试时，在iPad真机是可以安装的，info.plist配置也没问题，后面我们拍了用testflight在iPad上安装的的视频并在解决方案中心回复，晚上时通过审核，怀疑是苹果自己的平台在安装时出现问题。回复模版：
@@ -550,6 +554,7 @@ Next Steps
 To resolve this issue, please remove any features in your app that promote programs for third-party apps.
 
 翻译:
+指南3.2.2 - 业务 - 其他业务模式问题 - 不可接受
 我们注意到您的应用程序包含显示或推广第三方应用程序小程序的界面，该界面不适合应用商店。
 下一步
 要解决此问题，请删除您应用中宣传第三方应用程序的所有功能。
@@ -592,6 +597,7 @@ We began our review, but we are unable to continue because we need additional in
 Specifically, can you confirm that xxx USD is the intended price of your in-app purchase product, xxx⾦币? Additionally, please explain what factors led you to choose this pricing. Once we receive your confirmation, we will continue our review. If there's additional information you'd like to provide, please include it in your response to this message in Resolution Center.
 
 翻译:
+指南3.0 - 商业模式
 我们开始了审查，但我们无法继续，因为我们需要有关您的应用程序的其他信息。具体来说，您能否确认 xxx 美元是您的应用内购买产品，xxx⾦币？另外，请说明是什么因素导致您选择此定价。收到您的确认后，我们将继续审核。如果您还想提供其他信息，请将其包含在您在调解中心对此消息的回复。
 ```
 
@@ -604,6 +610,7 @@ Guideline 1.3 - Safety - Kids Category
 We noticed that your Kids Category app includes analytics, advertising and collects, transmits, or has the ability to share personal information or device information with third parties. 
 
 翻译:
+指南1.3 - 安全 - 儿童类别
 我们注意到您的儿童类别应用程序包含分析、广告并收集、传输或能够与第三方共享个人信息或设备信息。
 ```
 
