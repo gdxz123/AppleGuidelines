@@ -36,6 +36,7 @@ Guideline 4.2.3 - Design - Minimum Functionality
 We were required to install QQ before we could use your app. Apps should be able to run on launch, without requiring additional apps to be installed.Next StepsTo resolve this issue, please revise your app to ensure that users can use it upon launch. If your app requires authentication before use, please use methods that can authenticate users from within your app.
 
 翻译:
+指南4.2.3 — 设计 — 最低功能
 我们必须先安装QQ，然后才能使用您的应用程序。应用程序应该能够在启动时运行，而不需要安装其他应用程序。下一步要解决此问题，请修改您的应用程序，以确保用户可以在启动时使用它。如果您的应用程序在使用前需要进行身份验证，请使用可以在应用程序中对用户进行身份验证的方法。(目前有账号登录功能都一定要接入提供sigin with apple)
 ```
 
@@ -48,6 +49,7 @@ Guideline 3.3.1
 Applications may only use Documented APIs in manner prescribed by Apple and must not use or call any private APIs.
 
 翻译:
+指南 3.3.1
 应用程序只能按照苹果公司规定的方式使用文档化API，不得使用或调用任何私有API。
 ```
 
@@ -58,6 +60,7 @@ Guideline 2.1 - Performance - App Completeness
 We discovered one or more bugs in your app when reviewed on iPad running iOS 12.0.0 on Wi-Fi connected to an IPv6 network.
 
 翻译:
+指南2.1-性能-应用程序完整性
 当我们在连接到IPv6网络的Wi-Fi上运行iOS 12.0.0的iPad上进行审查时，发现您的应用程序中有一个或多个错误。
 ```
 
@@ -74,6 +77,7 @@ Guideline 2.3.3 - Performance - Accurate Metadata
 Upon further review, your screenshot(s) for iPhone 5.8'' does not reflect the app in use on iPhoneX.
 
 翻译:
+指南2.3.3 — 性能——准确的元数据
 经进一步审查，您的iPhone 5.8寸的屏幕截图并未反映是在iPhone X上正在使用的应用程序，一般就是刘海屏需要展示出来。
 ```
 - 审核人员大部分用iPad进行审核，APP需要在ipad里正常使用，（可能iPad成本便宜而且屏幕大）
@@ -92,6 +96,7 @@ Guideline 2.1 - Information Needed
 We have started the review of your app, but we were unable to successfully register for an in-app account. In order for us to review your app, please provide a demo account so that we may fully assess your app's features.Specifically, we need a company name to log in.
 
 翻译:
+指南2.1 - 所需信息
 我们已开始审核您的应用，但无法成功注册应用内帐户。为了便于我们审核您的应用，请提供一个审核账户，以便我们全面评估您应用的功能。具体来说，你的应用需要一个公司名称才能登录(但是我们没有)。
 ```
 - 保护未成年用户隐私，注意儿童隐私，在没有“家长明确同意”的情况下，禁止应用收集13岁以下儿童的个人资料
@@ -109,6 +114,7 @@ We have started the review of your app, but we were unable to successfully regis
   - If you track users, you must implement App Tracking Transparency and request permission before collecting data used to track. When you resubmit, indicate in the Review Notes where the permission request is located.
   
   翻译：
+  指南5.1.2 - 法律 - 隐私 - 数据使用和共享
   您在 App Store Connect 中提供的应用程序隐私信息表明您收集数据以跟踪用户，包括电子邮件或短信、用户 ID、购买历史、电话号码、精确位置、电子邮件地址、姓名和粗略位置。但是，在跟踪用户的活动之前，您不会使用 App Tracking Transparency 来请求用户的许可。
   从 iOS 14.5 开始，App Store 上的应用程序在收集用于跟踪它们的数据之前需要通过 AppTrackingTransparency 框架获得用户的许可。此要求保护 App Store 用户的隐私。
   下一步
@@ -123,14 +129,13 @@ We have started the review of your app, but we were unable to successfully regis
 
 - 如果没有定位、后台播放等功能，不可开通相关权限，收集用户隐私信息；如果需要后台持续开启定位功能，则需要说明开启后台定位功能的理由跟增加电池寿命声明：“后台定位会导致电池寿命减少”
 ```
-Guideline 2.16 
+Guideline 2.16 Details
 Multitasking Apps may only use background services for their intended purposes: VoIP, audio playback, location, task completion, local notifications, etc.
-
-2.16 Details
 
 Your app uses the Location Background mode but does not include the required "battery use" disclaimer in your Application Description.
 
 翻译:
+指南2.16 细节
 您的应用程序使用 Location Background 模式，但未在您的应用程序描述中包含所需的“电池使用”免责声明。
 
 Next Steps
@@ -149,6 +154,7 @@ Guideline 4.2.2 - Design - Minimum Functionality
 We noticed that your app only includes links, images, or content aggregated from the Internet with limited or no native iOS functionality. Although this content may be curated from the web specifically for your users, since it does not sufficiently differ from a mobile web browsing experience, it is not appropriate for the App Store.
 
 翻译:
+指南4.2.2 — 设计 — 最低功能
 我们注意到您的应用程序仅包含从 Internet 聚合的链接、图像或内容，并且本地 iOS 功能有限或没有。尽管此内容可能是专门为您的用户从网络上精选出来的，但由于它与移动网络浏览体验没有太大区别，因此不适合 App Store。
 ```
 
@@ -162,6 +168,7 @@ Next Steps
 To resolve this issue, please complete, remove, or fully configure any partially implemented features. Additionally, remove all references to "demo," "trial," "beta," or "test" in your app description, app icon, screenshots, previews, release notes, and binary. 
 
 翻译: 
+指南2.2 — 性能 — Beta测试
 您的应用程序似乎是预发布、测试或试用版，具有有限的功能集。为演示或试用目的创建的应用程序不适合应用商店。
 有关详细信息，请参阅所附的屏幕截图。
 接下来的步骤
@@ -175,6 +182,7 @@ Guideline 4.0 - Design
 Your app includes an update button or alerts the user to update the app, but the update button or alert does not link directly to the app's page on the App Store.
 
 翻译: 
+指南4.0 - 设计
 您的应用包含更新按钮或提醒用户更新应用，但更新按钮或提醒并未直接链接到 App Store 中应用的页面。
 ```
 
@@ -187,6 +195,7 @@ Next Steps
 To resolve this issue, please revise your app to ensure it runs as expected and displays properly at iPhone resolution on iPad. Even if your app was developed specifically for iPhone, users should still be able to use your app on iPad.)
 
 翻译:
+指南2.4.1 - 性能 - 硬件兼容性
 我们注意到，在运行 iOS 11.0.3 的 iPad 上审核时，您的应用程序无法以 iPhone 分辨率运行。有关详细信息，请参阅随附的屏幕截图。
 ```
 
@@ -194,18 +203,20 @@ To resolve this issue, please revise your app to ensure it runs as expected and 
 
 - 提审的APP要有一定的功能，如果都是H5页面，苹果会拒绝，要求你要网页做
 ```
-Guideline 4.2.2 - Design - Minimum Functionality : 
+Guideline 4.2.2 - Design - Minimum Functionality 
 
 We noticed that your app only includes links, images, or content aggregated from the Internet with limited or no native iOS functionality. Although this content may be curated from the web specifically for your users, since it does not sufficiently differ from a mobile web browsing experience, it is not appropriate for the App Store.
 
 翻译: 
+指南4.2.2 — 设计 — 最少功能
 我们注意到，您的应用程序只包括链接、图像或从互联网聚合的内容，并且本地iOS功能有限或没有。尽管这些内容可能是专门为您的用户从网络上策划的，但由于它与移动网络浏览体验没有足够的区别，因此这个软件不适合App Stroe。
 
-Guideline 4.2 - Design - Minimum Functionality 
+Guideline 4.2 - Design - Minimum Functionality
 
 Thank you for your resubmission and making the changes. We found that the usefulness of your app is limited by the miniaml amount of content or features it includes. Specifically, your app only provides a code contest without other account-based or iOS user interactive features.)
 
 翻译: 
+指南4.2 — 设计 — 最少功能
 感谢您重新提交并做出更改。我们发现，您的应用程序的有用性受到其包含的内容或功能的微小数量的限制。具体来说，您的应用程序只提供代码竞赛，没有其他基于帐户系统或iOS用户交互功能。
 ```
 
@@ -224,6 +235,7 @@ Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage
 We noticed that your app requests the user's consent to access their camera but does not clarify the use of this feature in permission modal alert. It would be appropriate to elaborate on why your app is scanning QR code and taking pictures.)
 
 翻译: 
+指南5.1.1 - 法律 - 隐私 - 数据收集和存储
 我们注意到您的应用程序请求用户同意访问他们的相机，但没有在权限模式警报中阐明此功能的使用。详细说明您的应用扫描二维码和拍照的原因是合适的。
 ```
 
@@ -235,6 +247,7 @@ your app name to be displayed on the App Store includes keywords or descriptore,
 
 
 翻译:
+表现 - 2.3.7
 您要在 App Store 上显示的应用程序名称包含不适合在应用程序名称中使用的关键字或描述符。具体来说，您应用名称中的以下词被视为关键字或描述符: xxxxxxxx
 ```
 
@@ -245,6 +258,7 @@ Guideline 2.1 - Information Needed
 We have started the review of your app, but we are not able to continue because we need additional information about your app.
 
 翻译: 
+指南2.1 - 所需信息
 我们已开始审核您的应用，但无法继续，因为我们需要有关您应用的更多信息。（苹果会列出需要提供什么信息）
 ```
 
@@ -255,6 +269,7 @@ Guideline 2.3.3 – Performance – Accurate Metadata
 We noticed that your screenshots do not sufficiently reflect your app in use.Please see attached screenshots for details.
 
 翻译: 
+指南2.3.3 – 表现 – 准确的元数据
 我们注意到您的屏幕截图不足以反映您正在使用的应用程序。有关详细信息，请参阅随附的屏幕截图。
 ```
 
@@ -267,6 +282,7 @@ Next Steps
 Please revise your app to remove anyfunctionality that limits who can use the app.
 
 翻译: 
+指南2.3 - 表现
 您的应用程序通过要求邀请码注册来任意限制用户，这在应用程序商店是不允许的。我们附上截图供您参考。
 下一步
 请修改您的应用程序以删除任何限制谁可以使用该应用程序的功能。
@@ -282,6 +298,7 @@ Next Steps
 To resolve this issue, please remove this feature from your app.
 
 翻译:
+指南3.1.1-业务-支付-应用内购买
 您的应用通过促销代码、数据传输代码、许可证密钥、增强现实标记或二维码等机制解锁或启用附加功能，这些机制不适用于 App Store。
 邀请码
 下一步
@@ -306,6 +323,7 @@ Guideline 2.5.2 - Performance - Software Requirements
 During review, your app installed or launched executable code, which is not permitted on the App Store. Specifically, your app uses the itms-services URL scheme to install an app.
 
 翻译: 
+指南2.5.2 - 表现 - 软件要求
 在审核期间，您的应用安装或启动了可执行代码，这是 App Store 不允许的。具体来说，您的应用程序使用 itms-services URL scheme来安装应用程序。(P.S: itms-services url scheme是安装企业包的技术)
 ```
 
@@ -316,6 +334,7 @@ Guideline 3.2.2 - Business - Other Business Model Issues - Unacceptable
 We noticed that your app incentivizes referrals in order to sign up new users. While rewarding the invitation sender with points or other digital content is acceptable, the person receiving the invitation should not receive any rewards for downloading or registering an account to use your app.)
 
 翻译: 
+指南3.2.2 - 业务 - 其他业务模式问题 - 不可接受
 我们注意到您的应用会鼓励推荐以注册新用户。虽然用积分或其他数字内容奖励邀请发送者是可以接受的，但收到邀请的人不应因下载或注册帐户以使用您的应用程序而获得任何奖励。
 ```
 
@@ -326,6 +345,7 @@ Guideline 2.3.7 - Performance - Accurate Metadata
 Your app name or subtitle to be displayed on the App Store includes keywords or descriptors, which are not appropriate for use in these metadata items. Specifically, the following words in your app name or subtitle are considered keywords or descriptors.
 
 翻译: 
+指南2.3.7 – 表现 – 准确的元数据
 您要在 App Store 上显示的应用程序名称或副标题包含不适合在这些元数据项中使用的关键字或描述符。具体来说，您应用名称或副标题中的以下词被视为关键字或描述符
 ```
 
@@ -336,6 +356,7 @@ Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage
 We noticed that your app requires users to register with personal information to purchase non account-based in-app purchase products, whitch does not comply with the App Store Review Guidelines.
 
 翻译:
+指南5.1.1 - 法律 - 隐私 - 数据收集和存储
 我们注意到，您的应用需要用户注册个人信息才能购买非账号内购商品，不符合《应用商店审核指南》。
 ```
 
@@ -348,6 +369,7 @@ Next Steps:
 to avoid potential user confusion, please revise your app so that your in-app purchase product names or labels are distinct from any real-world currencies.
 
 翻译: 
+指南1.1.6 — 安全 — 不可接受的内容
 我们注意到您的应用程序的应用内购买产品被标记为元，这可能会混淆和误导用户，让他们相信他们购买的是真实货币。
 下一步：
 为避免潜在的用户混淆，请修改您的应用，使您的应用内购买产品名称或标签与任何现实世界的货币不同。
@@ -368,6 +390,9 @@ Performance - 2.3.1 & Business - 3.1.1
 Your app contains hidden features that enable users to purchase content by means other than in-app purchase API.
 
 翻译:
+2.3.1 - 隐藏或未记录的特征
+3.1.1 - 应用内购买
+表现-2.3.1 & 业务-3.1.1
 您的应用包含隐藏功能，使用户能够通过应用内购买 API 以外的方式购买内容。
 ```
 
@@ -379,6 +404,7 @@ We noticed an issue in your app that contributes to a lower quality user experie
 - Your app and it's metadata has not been fully localized for its intended markets.
 
 翻译:
+指南4.0 - 设计:
 我们注意到您的应用程序中存在导致用户体验质量低于 Apple 用户预期的问题：
 - 您的应用及其元数据尚未针对其目标市场进行完全语言本地化。（就是没有提供上架市场的语言版本）
 ```
@@ -461,6 +487,7 @@ Guideline 5.2.3 - Legal - Intellectual Property
 Your app falls into a category of apps that is often used for illegal file sharing. 
 
 翻译:
+指南5.2.3 — 法律 — 知识产权
 您的应用属于经常用于非法文件共享的应用类别
 ```
 
@@ -584,8 +611,8 @@ We noticed that your Kids Category app includes analytics, advertising and colle
 
 - 被拒原因应该是 申请人在领取营业执照后3天内，必须将《网络文化经营许可证》和营业执照的复印件分别报受理申请的县（市、区）级文化行政部门、公安部门备案
 ```
-5. 2.1 Legal: Intellectual Property - General
-Guideline 5.2.1 - Legal - Intellectual Property
+Guideline 5. 2.1 Legal: Intellectual Property - General
+5.2.1 - Legal - Intellectual Property
 
 Your app facilitates, enables, or encourages live video chat or performance (网络直播/表演/秀场), but you haven’t provided the appropriate documentation for the services in your app.
 Next Steps
@@ -615,6 +642,17 @@ Next Steps
 To resolve this issue, please revise your app to use the in-app purchase API to pay for these sorts of transactions. Please note that while guideline 3.2.1(vii) of the App Store Review Guidelines allows individual users to give a monetary gift to another individual user without using in-app purchase, that gift must not be connected to or associated at any point in time with receiving digital content or services.
 
 While the payment system that you have included may conduct the transaction outside of the app, if the purchasable content, functionality, or services are intended to be consumed within the app, they must be purchased through in-app purchase - unless it is of the type referenced in guideline 3.1.3 of the App Store Review Guidelines.
+
+翻译: 
+指南3.1.1-业务-支付-应用内购买
+
+我们注意到，您的应用程序允许用户使用应用程序内购买API以外的机制向应用程序中的数字内容创建者“小费”，这不适合应用商店。
+
+接下来的步骤
+
+要解决此问题，请修改您的应用程序以使用应用内购买API来支付此类交易。请注意，尽管《应用商店审查指南》第3.2.1（vii）条允许个人用户在不使用应用内购买的情况下向另一个人用户赠送金钱礼物，但该礼物在任何时候都不得与接收数字内容或服务相连接或相关联。
+
+虽然您包含的支付系统可能在应用程序之外进行交易，但如果可购买的内容、功能或服务打算在应用程序内消费，则必须通过应用程序内购买来购买，除非是《应用商店审查指南》第3.1.3条中引用的类型。
 ```
 
 - 直播类APP年龄分级需要17+
@@ -631,6 +669,7 @@ Guideline 2.1 - Information Need
 Provide an active demo account and login information, plus any other hardware or resources that might be needed to review your app (e.g. a sample QR code)
 
 翻译: 
+指南2.1 - 所需信息
 提供有效的演示帐户和登录信息，以及审查您的应用程序可能需要的任何其他硬件或资源（例如示例二维码）
 ```
 
@@ -666,6 +705,7 @@ Guideline 5.3.2 - Legal - Gaming, Gambling, and Lotteries
 Your app includes a contest or sweepstakes, but it does not indicate the Apple is not involved in any way with the contest or sweepstakes. Also. it does not enforce an app age rating of 17+.)
 
 翻译: 
+指南5.3.2-法律-博彩、赌博和彩票
 您的应用程序包含竞赛或抽奖活动，但并不表示 Apple 未以任何方式参与竞赛或抽奖活动。还。它不会强制执行 17 岁以上的应用年龄评级。
 ```
 
@@ -676,6 +716,34 @@ Your app includes a contest or sweepstakes, but it does not indicate the Apple i
 
 - APP商品如果是实物可走第三方支付渠道，如信用卡，微信、支付宝等支付渠道
 
+### 支付相关
+- 有订阅支付功能，但是没有使用条款说明，需要补充条款说明
+```
+Guideline 3.1.2 - Business - Payments - Subscriptions
+
+
+We noticed that your app did not meet all the terms and conditions for auto-renewing subscriptions, as specified in Schedule 2, section 3.8(b) of the Paid Applications agreement. 
+
+We were unable to find the following required item(s) in your app's metadata:
+
+– A functional link to the Terms of Use (EULA)
+
+Next Steps
+
+To resolve this issue, please add this missing information. If the above information is present, please reply to this message in App Store Connect to provide details on where to locate it. 
+
+If you are using the standard Apple Terms of Use (EULA), you will need to include a link to the Terms of Use in your App Description. If you are using a custom EULA, add it in App Store Connect.
+
+翻译:
+指南3.1.2-业务-付款-订阅
+我们注意到，您的应用程序不符合付费应用程序协议附件2第3.8（b）节中规定的自动续订订阅的所有条款和条件。
+我们无法在您的应用的元数据中找到以下必需项目：
+–使用条款（EULA）的功能链接
+接下来的步骤
+若要解决此问题，请添加此缺少的信息。如果存在上述信息，请在App Store Connect中回复此消息，以提供定位信息的详细信息。
+如果您使用的是标准的苹果使用条款（EULA），您需要在应用程序说明中包含一个指向使用条款的链接。如果您正在使用自定义EULA，请将其添加到App Store Connect中。
+```
+
 ### 登录相关
 - 当用户使用sign with apple时，登录后不应该去获取用户的手机号、性别、出生年月等信息，需要保护用户的隐私安全。如果需要获取则要提供跳过选项。
 ```
@@ -685,6 +753,7 @@ We noticed that your app requires users to register or log in to access features
 Specifically, we were required to provide phone number after using Sign in with Apple.）
 
 翻译:
+指南5.1.1 - 法律-隐私-数据收集和存储
 我们注意到您的应用要求用户注册或登录才能访问非基于帐户的功能。
 具体来说，我们需要在使用 Sign in with Apple 后提供电话号码。
 ```
@@ -710,6 +779,7 @@ Guideline 5.3.2 - Legal - Gaming, Gambling, and Lotteries
 Your app includes a contest or sweepstakes, but it does not indicate the Apple is not involved in any way with the contest or sweepstakes.
 
 翻译:
+指南5.3.2 - 法律-博彩、赌博和彩票
 游戏、赌博和彩票：您的应用程序包含竞赛或抽奖活动，但并不表示 Apple 未以任何方式参与竞赛或抽奖活动。
 ```
 
@@ -722,6 +792,7 @@ Guideline 4.3 - Design
 We noticed that your app provides the same feature set as other apps submitted to the App Store; it simply varies in content or language, which is considered a form of spam.)
 
 翻译:
+指南4.3 - 设计
 我们注意到您的应用程序提供与提交到 App Store 的其他应用程序相同的功能集；它只是在内容或语言上有所不同，这被视为山寨的一种形式
 ```
 
