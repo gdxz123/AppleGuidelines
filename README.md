@@ -30,7 +30,7 @@
 
 - 有账号体系则需要有不依赖第三方的登录注册功能，目前要求有账号登录功能则一定要接入提供sigin with apple，且设计logo 文案都需要按照官方要求，这是为了保护用户数据隐私
 
-```
+
 Guideline 4.2.3 - Design - Minimum Functionality
 
 We were required to install QQ before we could use your app. Apps should be able to run on launch, without requiring additional apps to be installed.Next StepsTo resolve this issue, please revise your app to ensure that users can use it upon launch. If your app requires authentication before use, please use methods that can authenticate users from within your app.
@@ -38,12 +38,12 @@ We were required to install QQ before we could use your app. Apps should be able
 翻译:
 指南4.2.3 — 设计 — 最低功能
 我们必须先安装QQ，然后才能使用您的应用程序。应用程序应该能够在启动时运行，而不需要安装其他应用程序。下一步要解决此问题，请修改您的应用程序，以确保用户可以在启动时使用它。如果您的应用程序在使用前需要进行身份验证，请使用可以在应用程序中对用户进行身份验证的方法。(目前有账号登录功能都一定要接入提供sigin with apple)
-```
+
 
 - 有账号体系则需有用户隐私协议
 
 - 不可使用苹果私有API，苹果私有API有工具可以进行代码检测。
-```
+
 Guideline 3.3.1
 
 Applications may only use Documented APIs in manner prescribed by Apple and must not use or call any private APIs.
@@ -51,10 +51,10 @@ Applications may only use Documented APIs in manner prescribed by Apple and must
 翻译:
 指南 3.3.1
 应用程序只能按照苹果公司规定的方式使用文档化API，不得使用或调用任何私有API。
-```
+
 
 - 不支持ipv6网络访问，美国地区需要支持IPv6，需把审核地区设置成中国即可，这样审核会不要求IPV6，应该是因为IPV6在美国覆盖率很高，审核人员的网络可能就是IPV6，导致他体验不了APP，所以要求APP在IPV6覆盖率高的国家上架时要求支持，但中国地区不强制要求。
-```
+
 Guideline 2.1 - Performance - App Completeness
 
 We discovered one or more bugs in your app when reviewed on iPad running iOS 12.0.0 on Wi-Fi connected to an IPv6 network.
@@ -62,7 +62,7 @@ We discovered one or more bugs in your app when reviewed on iPad running iOS 12.
 翻译:
 指南2.1-性能-应用程序完整性
 当我们在连接到IPv6网络的Wi-Fi上运行iOS 12.0.0的iPad上进行审查时，发现您的应用程序中有一个或多个错误。
-```
+
 
 - 版权问题，不要使用明显有版权争议的素材资源、如emoji、苹果logo、美国电影等 如：
 
