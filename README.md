@@ -331,6 +331,51 @@ We have started the review of your app, but we are not able to continue because 
 
 ***
 
+- 需要补充信息，这里主要要注意解释应用在什么场景使用，支付相关的怎么使用，如果涉及虚拟物品的购买则只能使用苹果内购支付
+
+Guideline 2.1 - Information Needed
+
+We’re looking forward to completing the review of your app, but we need more information to continue.
+
+Next Steps
+
+Please provide detailed answers to the following questions in your reply to this message in App Store Connect:
+
+1. What is the concept of the app?
+
+2. What are the main features of the app?
+
+3. Who are the users that will use the paid content and features in the app?
+
+4. Where can users purchase the content and features that can be accessed in the app?
+
+
+6. What paid content, subscriptions, or features are unlocked within your app that do not use in-app purchase?
+
+翻译:
+
+指南2.1-所需信息
+
+我们期待着完成对您的应用程序的审查，但我们需要更多信息才能继续。
+
+接下来的步骤
+
+请在App Store Connect中对此消息的回复中提供以下问题的详细答案：
+
+1.应用程序的概念是什么？
+
+2.该应用程序的主要功能是什么？
+
+3.哪些用户将使用应用程序中的付费内容和功能？
+
+4.用户在哪里可以购买应用程序中可以访问的内容和功能？
+
+5.用户可以在应用程序中访问哪些特定类型的先前购买的内容和功能？
+
+6.哪些付费内容、订阅或功能在您的应用程序中解锁，而不使用应用内购买？
+
+***
+
 - APP介绍页展示的功能要跟实际应用提供的功能一致
 
 Guideline 2.3.3 – Performance – Accurate Metadata 
